@@ -21,7 +21,7 @@ local Tab = Window:CreateTab("Lahan & Bibit", nil)
 local Config = {
     AutoFarm = false,
     AutoBuySeed = false,
-    SeedName = "Tomato",
+    SeedName = "Kubis",
     BuyAmount = 10,
     MinWait = 0.2,
     MaxWait = 0.5
@@ -84,8 +84,8 @@ Tab:CreateToggle({
 
 Tab:CreateDropdown({
    Name = "Pilih Jenis Bibit",
-   Options = {"Tomato","Carrot","Berry","Cabbage","Corn"},
-   CurrentOption = {"Tomato"},
+   Options = {"Kubis","Kentang","Jagung","Paprika","Corn"},
+   CurrentOption = {"Kubis"},
    MultipleOptions = false,
    Callback = function(Option)
       Config.SeedName = Option[1]
