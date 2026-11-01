@@ -18,7 +18,7 @@ end)
 local Config = {
     AutoFarm = true,
     AutoBuySeed = true,    -- Aktifkan beli bibit otomatis
-    SeedName = "Tomato",   -- Nama bibit yang ingin ditanam & dibeli (Ganti sesuai kebutuhan)
+    SeedName = "Kubis",   -- Nama bibit yang ingin ditanam & dibeli (Ganti sesuai kebutuhan)
     BuyAmount = 10,        -- Jumlah bibit yang dibeli setiap kali habis
     MinWait = 0.2,         -- Jeda minimal keamanan (detik)
     MaxWait = 0.5          -- Jeda maksimal keamanan (detik)
